@@ -11,20 +11,49 @@
     <div class="container">
       <h1>Pizza Parlor</h1>
 
-      
-        <h2>Create your pizza</h2>
-        <div class="form-group" id="toppings">
-          <input type="checkbox" name="toppings" value="cheese">Cheese<br>
-          <input type="checkbox" name="toppings" value="pepperoni">Pepperoni<br>
-          <input type="checkbox" name="toppings" value="sausage">Sausage<br>
-          <input type="checkbox" name="toppings" value="chicken">Chicken<br>
-          <input type="checkbox" name="toppings" value="anchovy">Anchovy<br>
-          <input type="checkbox" name="toppings" value="artichoke">Artichoke<br>
-          <input type="checkbox" name="toppings" value="mushrooms">Mushrooms<br>
-          <input type="checkbox" name="toppings" value="pepper">Red pepper<br>
-          <input type="checkbox" name="toppings" value="onions">Onions<br>
-          <input type="checkbox" name="toppings" value="caramel-onions">Caramelized onions<br>
+      <form id="order-pizza">
+      <h2>Create your pizza:</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="pizza-size">Select a size:</label>
+              <div class="radio" id="size">
+                <label>
+                  <input type="radio" name="size" value="small" checked>
+                  Small 
+                </label>
+              </div>
+              <div class="radio" id="size">
+                <label>
+                  <input type="radio" name="size" value="medium" checked>
+                  Medium 
+                </label>
+              </div>
+              <div class="radio" id="size">
+                <label>
+                  <input type="radio" name="size" value="large" checked>
+                  Large 
+                </label>
+              </div>
+          </div>
+
+          <div class="col-md-6">  
+            <div class="form-group" id="toppings">
+              <input type="checkbox" name="toppings" value="cheese">Cheese<br>
+              <input type="checkbox" name="toppings" value="pepperoni">Pepperoni<br>
+              <input type="checkbox" name="toppings" value="sausage">Sausage<br>
+              <input type="checkbox" name="toppings" value="chicken">Chicken<br>
+              <input type="checkbox" name="toppings" value="anchovy">Anchovy<br>
+              <input type="checkbox" name="toppings" value="artichoke">Artichoke<br>
+              <input type="checkbox" name="toppings" value="mushrooms">Mushrooms<br>
+              <input type="checkbox" name="toppings" value="pepper">Red pepper<br>
+              <input type="checkbox" name="toppings" value="onions">Onions<br>
+              <input type="checkbox" name="toppings" value="caramel-onions">Caramelized onions<br>
+            </div>
+            <button type="submit">Submit pizza</button>
+          </div>
         </div>
+      </form>
+      
         
       
 
