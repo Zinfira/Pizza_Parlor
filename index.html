@@ -9,7 +9,10 @@
   </head>
   <body>
     <div class="container">
-      <h1>Pizza Parlor</h1>
+      <div class="jumbotron">
+        <h1>Pizza Parlor</h1>
+        <h2>Love from the first bite</h2>
+      </div>
 
       <form id="order">
       <h2>Create your pizza:</h2>
@@ -39,19 +42,19 @@
           <div class="col-md-6">  
             <div class="form-group" id="pizzaToppings">
               <label for="pizza-topping">Select toppings:</label><br>
-              <input type="checkbox" name="toppings" value="Cheese" checked>Cheese $1<br>
-              <input type="checkbox" name="toppings" value="Pepperoni">Pepperoni $2<br>
-              <input type="checkbox" name="toppings" value="Sausage">Sausage $3<br>
-              <input type="checkbox" name="toppings" value="Chicken">Chicken $3<br>
-              <input type="checkbox" name="toppings" value="Anchovy">Anchovy $2 <br>
-              <input type="checkbox" name="toppings" value="Artichoke">Artichoke $2<br>
-              <input type="checkbox" name="toppings" value="Mushrooms">Mushrooms $2<br>
-              <input type="checkbox" name="toppings" value="Pepper">Red pepper $2<br>
-              <input type="checkbox" name="toppings" value="Onions">Onions $1<br>
-              <input type="checkbox" name="toppings" value="Caramelized onions">Caramelized onions $2<br>
+              <input type="checkbox" name="toppings" value="Cheese" checked> Cheese $1<br>
+              <input type="checkbox" name="toppings" value="Pepperoni"> Pepperoni $2<br>
+              <input type="checkbox" name="toppings" value="Sausage"> Sausage $3<br>
+              <input type="checkbox" name="toppings" value="Chicken"> Chicken $3<br>
+              <input type="checkbox" name="toppings" value="Anchovy"> Anchovy $2 <br>
+              <input type="checkbox" name="toppings" value="Artichoke"> Artichoke $2<br>
+              <input type="checkbox" name="toppings" value="Mushrooms"> Mushrooms $2<br>
+              <input type="checkbox" name="toppings" value="Pepper"> Red pepper $2<br>
+              <input type="checkbox" name="toppings" value="Onions"> Onions $1<br>
+              <input type="checkbox" name="toppings" value="Caramelized onions"> Caramelized onions $2<br>
             </div>
           </div>
-            <button type="submit">Submit pizza</button>
+            <button type="submit" class="btn">Submit pizza</button>
         </div>
       </form>
       
@@ -59,7 +62,7 @@
         <h2>Thank you for your order! Pizza will be ready in 10-15 minutes!</h2>
         <h3>Your size: <span class="pizzaSize"></span></h3>
         <h3>Your toppings: <span class="showTops"></span></h3>
-        <h3>Your total is: <span class="price"></span></h3>
+        <h3>Your total is: $<span class="price"></span></h3>
         
       </div>
 

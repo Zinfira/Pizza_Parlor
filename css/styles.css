@@ -5,9 +5,48 @@
 body {
   background-image: url("../img/image.jpg")
   
+  
 }
 
-#pizzaToppings {
+#order {
   background-color: bisque;
-  grid-column: auto;
+  margin-left: -10px;
+}
+
+.jumbotron {
+  
+  background-image: url("../img/piz.png");
+  color: rgb(116, 70, 12)
+
+  
+}
+
+.show-pizza {
+  background-color: bisque;
+}
+
+.btn {
+  border: 3px solid brown;
+  margin-left: 300px;
+  color: brown;
+}
+
+.form-group {
+  color: brown;
+}
+
+#order {
+  color: brown;
+}
+
+.pizzaSize {
+  color: rgb(148, 25, 25);
+}
+
+.showTops {
+  color:  rgb(148, 25, 25);
+}
+
+.price {
+  color: rgb(148, 25, 25);
 }
