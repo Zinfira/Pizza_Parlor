@@ -1,3 +1,13 @@
 .show-pizza {
   display: none;
 }
+
+body {
+  background-image: url("../img/image.jpg")
+  
+}
+
+#pizzaToppings {
+  background-color: bisque;
+  grid-column: auto;
+}
