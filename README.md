@@ -8,6 +8,13 @@
 
 _This website was made to practice working with constructors and prototypes. It offers to a user to order a customize pizza and show the final cost._
 
+## Project Specifications
+| Behavior | Input | Output |
+|----------|-------|--------|
+| User selects toppings| "Pepperoni, pepper" | $4 ($2 each) |
+| User selects pizza size| "Medium" | $10| 
+ User submits order and get the final price | " Medium size, pepperoni, pepper" | $14 |
+
 ## Setup/Installation Requirements
 
 * This program requires to have a web browser as Google Chrome, Safari or Mozilla Firefox
